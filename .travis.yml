@@ -2,7 +2,7 @@ language: generic
 addons:
   apt:
     packages:
-      - openjdk-11-jre-headless
+      - openjdk-8-jdk-headless
 script:
   - make run
   
